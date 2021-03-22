@@ -1,0 +1,113 @@
+.App {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.topDiv{
+    background-color: #f47d39;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    height: 80px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.question
+{
+  font-size: 40px;
+  margin: auto;
+  padding-bottom: 20px;
+  width: 100%;
+  background-color: #ffffff;
+  color:#ef426d;
+}
+
+.alignImg
+{
+  float: left;
+  padding-right: 60px;
+  cursor: pointer;
+}
+
+
+.alignCurrentStep
+{
+  float: right;
+  padding: 30px;
+}
+
+.subQuestion
+{
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #636466;
+}
+
+.topSection
+{
+  text-align: center;
+  margin-top: 80px;
+  clear: both;
+
+}
+
+.topPanel
+{
+  text-align: center;
+  background-color: white;
+  width: 95%;
+  min-height: 500px;
+  margin: auto;
+  background-color: white;
+}
+
+.answer
+{
+   width: 80%;
+   min-height: 40px;
+   color: #fff;
+   background-color: #e90b5a;
+   box-shadow: 2px 2px 2px 2px #888888;
+   border-radius: 5px;
+   margin: 10px;
+   text-align: left;
+   line-height: 40px;
+   padding: 10px;
+   padding-left: 3%;
+   display: inline-block;
+   font-size: 22px;
+   cursor: pointer;
+}
+
+.answer:hover{
+  background-color: #f47d39;
+}
+
+.answerSection
+{
+  margin-top: 30px;
+}
+
+.finalScoreSection
+{
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    font-size: xx-large;
+    color:#ef426d;
+}
+
+.finalScore
+{
+  margin: auto;
+  text-align: center;
+  display: inline-block;
+  padding: 20px;
+  color: #f04c24;
+}
